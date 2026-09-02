@@ -1,0 +1,95 @@
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: "Helvetica Neue", sans-serif;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header,
+section {
+    margin-bottom: 30px;
+}
+
+section {
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #8c4c08;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    user-select: none;
+}
+
+ul,
+ol {
+    text-align: left;
+    display: inline-block;
+}
+
+p {
+    font-style: italic;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Foto principal do currículo */
+img[alt="Foto do autor"] {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o mouse na foto */
+img[alt="Foto do autor"]:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Ícones da seção de contato */
+section p img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 8px 0 0;
+    border-radius: 0;
+}
+
+/* Links */
+a {
+    color: #8c4c08;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
